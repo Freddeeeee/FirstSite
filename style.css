@@ -28,6 +28,11 @@ main {
     box-shadow: 0.3vw 0.3vw 0.1vw #333;
 }
 
+#playingCard:hover {
+    border: thick;
+    border-color: #ffffff;
+}
+
 #mainGame figcaption{
     display: inline;
 }
@@ -58,4 +63,8 @@ nav li:hover {
     text-shadow: 0.03vw 0.03vw 0.03vw #333;
     text-decoration: none;
     color: #7C6354;
+}
+
+figure {
+    display: inline;
 }
