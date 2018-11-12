@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap-reboot.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Yu-Gi-Oh: the game</h1>
+    </header>
+    <nav>
+        <ul>
+            <a href=""><li>Play!</li></a>
+            <a href=""><li>Saved Games</li></a>
+        </ul>
+    </nav>
+
+    <section>
+        <time>00:00:00</time>
+        <div>Current score: 0</div>
+    </section>
+
+    <main>
+        <section id="mainGame">
+            <figure>
+                <img id="playingCard" d="deck" src="Images/CardBack.jpg" />
+                <figcaption>Deck</figcaption>
+            </figure>
+            <figure>
+                <img id="playingCard" src="Images/SevenOfClubs.png" />
+                <figcaption>Player Hand</figcaption>
+            </figure>
+            <figure>
+                <img id="playingCard" src="Images/CardBack.jpg" />
+                <figcaption>Opponents Hand</figcaption>
+            </figure>
+            <figure>
+                <img id="playingCard" src="Images/SevenOfClubs.png" />
+                <figcaption>Discard pile</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <aside>
+        <section>
+            <input type="button" value="New game" />
+            <input type="button" value="Pause" />
+            <input type="button" value="Save" />
+        </section>
+
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>Date</td>
+                        <td>Score</td>
+                        <td>Time</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>FreddiBoi</td>
+                        <td>2018-11-12</td>
+                        <td>13</td>
+                        <td>5:43</td>
+                    </tr>
+                    <tr>
+                        <td>Jounouchi</td>
+                        <td>2018-11-10</td>
+                        <td>9</td>
+                        <td>7:12</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </aside>
+</body>
+</html>

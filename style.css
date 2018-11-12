@@ -1,0 +1,61 @@
+﻿/*Colors
+    #F8FCDA
+    #E3E9C2
+    #F9FBB2
+    #7C6354
+    #A5ABAF
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #A5ABAF;
+    color: #7C6354;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+main {
+    margin: 1vw 4vw;
+    background-color: #F8FCDA;
+}
+
+#playingCard {
+    width: 10vw;
+    display: inline;
+    box-shadow: 0.3vw 0.3vw 0.1vw #333;
+}
+
+#mainGame figcaption{
+    display: inline;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1vw 0vw;
+    text-align: center;
+    background-color: #F9FBB2;
+}
+
+nav li {
+    display: inline;
+    padding: 1vw 4vw;
+}
+
+nav a {
+    color: #7C6354;
+}
+
+nav a:hover {
+   text-decoration: none; 
+}
+
+nav li:hover {
+    background-color: #E3E9C2;
+    text-shadow: 0.03vw 0.03vw 0.03vw #333;
+    text-decoration: none;
+    color: #7C6354;
+}
